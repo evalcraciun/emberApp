@@ -8,6 +8,7 @@ App.Router.map(function() {
   this.resource('products');
 });
 
+
 App.IndexController = Ember.Controller.extend({
   productsCount:6,
   logo:"images/logo.png",
