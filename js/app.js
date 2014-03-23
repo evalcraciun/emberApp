@@ -16,3 +16,24 @@ App.IndexController = Ember.Controller.extend({
   	return (new Date()).toDateString()
   }.property()
 });
+App.ProductsRoute = Ember.Route.extend({
+   model:function(){
+        return App.PRODUCTS;
+   }
+});
+App.PRODUCTS = [
+    {
+        title:'Flint',
+        price:99,
+        description:'Flint is..',
+        isOnSale:true,
+        image:''
+    },
+    {
+        title:'Kingling',
+        price:249,
+        description:'Easily...',
+        isOnSale:false,
+        image:''
+    }
+]
