@@ -47,10 +47,11 @@
      <h1>About the Fire Spirits!</h1>
   </script>
   <script type="text/x-handlebars" data-template-name="products">
-        <h2>Products</h2>
-        {{#each product in model}}
-            <h4>{{product.title}}</h4>
-        {{/each}}
+        <h2>Showing my Products</h2>
+            {{#each product in model}}
+                <h4>{{product.title}}</h4>
+                <img {{bind-attr src='product.image'}} class="img-thumbnail col-md-5"/> 
+            {{/each}}
   </script>
 </body>
 </html>
