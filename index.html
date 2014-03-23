@@ -47,7 +47,10 @@
      <h1>About the Fire Spirits!</h1>
   </script>
   <script type="text/x-handlebars" data-template-name="products">
-      <h1>Welcome to the products resources!</h1>
+        <h2>Products</h2>
+        {{#each product in model}}
+            <h4>{{product.title}}</h4>
+        {{/each}}
   </script>
 </body>
 </html>
