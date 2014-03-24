@@ -2,8 +2,10 @@ App = Ember.Application.create({
 	 LOG_TRANSITIONS:true
 });
 
+//add testing root
+App.rootElement = '#testing';
+
 App.Router.map(function() {
-  // this.route('about', {path: '/aboutus'});
   this.route('about');
   this.resource('products');
 });
