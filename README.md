@@ -29,8 +29,3 @@ integration test should be written, using QUnit assertions and ember-testing hel
 For more information about ember-testing package see [ember-testing](http://emberjs.com/guides/testing/integration/)
 
 For more information about the QUnit testing framework, see [QUnit](http://qunitjs.com/)
-
-Contact
-====
-
-www.emberjs.com
