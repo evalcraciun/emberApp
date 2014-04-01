@@ -15,7 +15,7 @@
   <!-- to activate the test runner, add the "?test" query string parameter -->
   <script src="tests/runner.js"></script>
 </head>
-<body>
+<body id="testing">
   <script type="text/x-handlebars" data-template-name="application">
   <div class='navbar navbar-default'>
     <div class='container'>
@@ -27,7 +27,7 @@
       </ul>
     </div>
   </div>
-  <div class='container' id="testing">
+  <div class='container'>
     {{outlet}}
   </div>
   <footer class='container'>
